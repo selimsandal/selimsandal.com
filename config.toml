@@ -23,6 +23,6 @@ highlight_theme = "agola-dark"
 links = [
     { title = "Mail", href = "mailto:paler_sticker0x@icloud.com" },
     { title = "GitHub", href = "https://github.com/selimsandal" },
-    { title = "LinkedIn", href = "https://www.linkedin.com/in/selim-sandal-56a43a161/" }
+    { title = "LinkedIn", href = "https://www.linkedin.com/in/selim-sandal-56a43a161/" },
     { title = "Logice AI", href = "https://www.logiceai.com" }
 ]
