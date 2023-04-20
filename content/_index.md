@@ -5,4 +5,4 @@ Hey, I’m Selim. I’m a freshman computer science undergraduate student at [Oz
 
 ---
 <sub><sup>selim (at) selimsandal (dot) com</sup></sub>\
-<sub><sup>selim (dot) sandal (at) ozyegin (dot) edu (dot) tr</sup></sub>
+<sub><sup>selim (dot) sandal (at) ozu (dot) edu (dot) tr</sup></sub>
