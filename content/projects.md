@@ -4,7 +4,9 @@ title = "Projects"
 extra.in_header = true
 +++
 
-Here are some projects I'm actively working on:
-- Leading a team implementing a custom RISC-V CPU at Ozyegin University Computer Architecture and Systems Technologies lab
-- Writing my own machine learning library for C++
-- Working on developing a better LLM architecture with long term memory capabilities
+
+- Worked on a customised RISC-V cpu at Ozyegin University CAST lab. (2022-2023)
+- Working on a hardware accelerated Large Language Model architecture. (2023-present)
+
+
+<sub><sup>P.S. This list is missing some projects, game jams and mobile apps I've worked on that I don't think I need to include here.</sup></sub>
