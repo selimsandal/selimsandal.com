@@ -6,6 +6,7 @@ extra.in_header = true
 
 
 - Worked on a customised RISC-V cpu at Ozyegin University CAST lab. (September 2022 - March 2023)
+
 - Working on an AI accelerator. (May 2023 - present)
 
 
