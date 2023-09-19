@@ -1,7 +1,7 @@
 +++
 +++
 
-I’m an undergraduate studying computer science at Ozyegin University. Currently working on designing better CPU and accelerator architectures.
+I’m studying computer science at Ozyegin University. Working on designing better CPU and accelerator architectures.
 
 ---
 <sub><sup>selim (at) selimsandal (dot) com</sup></sub>\
