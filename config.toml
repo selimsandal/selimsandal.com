@@ -22,6 +22,6 @@ highlight_theme = "agola-dark"
 
 links = [
     { title = "GitHub", href = "https://github.com/selimsandal" },
-    { title = "LinkedIn", href = "https://www.linkedin.com/in/selimsandal/" }
+    { title = "LinkedIn", href = "https://www.linkedin.com/in/selimsandal/" },
     { title = "Google Scholar", href = "https://scholar.google.com/citations?hl=en&user=k5Aj3wYAAAAJ" }
 ]
