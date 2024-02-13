@@ -10,6 +10,6 @@ I believe this one is better than the other cluttered ones. I tested it on local
 
 Downloads:
 
-[Windows, AMD64](https://drive.google.com/file/d/1NhBBW_ABB01GEvRM72QZCeYqhbXpn4An/view?usp=share_link)
+[Windows, amd64](https://drive.google.com/file/d/1NhBBW_ABB01GEvRM72QZCeYqhbXpn4An/view?usp=share_link)
 
-[MacOS, ARM64](https://drive.google.com/file/d/1b8X8Co7IXIn8LaCnVYTpjOVGrrFOxDTJ/view?usp=share_link)
+[MacOS, aarch64](https://drive.google.com/file/d/1b8X8Co7IXIn8LaCnVYTpjOVGrrFOxDTJ/view?usp=share_link)
