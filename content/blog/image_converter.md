@@ -12,4 +12,4 @@ Downloads:
 
 [Windows, amd64](https://github.com/selimsandal/imageconvert-release/releases/download/beta3/win-amd64.zip)
 
-[MacOS, aarch64]() Signing problem, will be up soon.
+MacOS, aarch64 Signing problem, will be up soon.
