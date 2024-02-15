@@ -10,6 +10,6 @@ I believe this one is better than the other cluttered ones. I tested it on local
 
 Downloads:
 
-[Windows, amd64](https://drive.google.com/file/d/1zJS7DqVnktQJ0ds6oHyY5XZ5vp6bNORe/view?usp=share_link)
+[Windows, amd64](https://github.com/selimsandal/imageconvert-release/releases/download/beta3/win-amd64.zip)
 
-[MacOS, aarch64](https://drive.google.com/file/d/1Ib1eNeX4o84fZzcRWda6BXVQGGcDnjmw/view?usp=share_link)
+[MacOS, aarch64]() Signing problem, will be up soon.
