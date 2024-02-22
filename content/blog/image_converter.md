@@ -1,10 +1,8 @@
 +++
-title = "Just Made an Image Converter"
+title = "Image Converter"
 description = "I made a (batch) image converter"
 date = 2024-02-13
 +++
-
-Hey everyone,
 
 I've put together a batch image converter tool recently. It's straightforward, handling multiple files and various formats without the clutter you might find in other tools. Thought it could be useful for some of you as well.
 
