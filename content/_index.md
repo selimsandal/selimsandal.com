@@ -1,7 +1,7 @@
 +++
 +++
 
-Studying computer engineering. Research assistant at CAST lab, working on designing better CPUs, hardware accelerators, AI models.
+Studying computer engineering. Research assistant at CAST lab, working on designing better CPUs, hardware accelerators, software.
 
 ---
 <sub><sup>selim (at) selimsandal (dot) com</sup></sub>\
