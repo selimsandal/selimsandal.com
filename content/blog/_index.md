@@ -1,5 +1,5 @@
 +++
 title = "Blog"
-description = "Example blog page for Zola"
+description = "Selim's blog"
 sort_by = "date"
 +++
