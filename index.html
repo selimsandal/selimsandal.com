@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal Website">
+    <title>Selim Sandal</title>
+    
+    <link rel="stylesheet" href="https://selimsandal.com/style.css?h=088cb6e340cd4d37099df0950d1f75dd11e6a6e9b6c70ec8f802d1ebb728157c">
+    
+</head>
+<body>
+    
+    <header class="space">
+        <h1>Selim Sandal</h1>
+        
+        
+        <nav class="header-links">
+            
+            <a href="https:&#x2F;&#x2F;github.com&#x2F;selimsandal">GitHub</a>
+            
+            <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;selimsandal&#x2F;">LinkedIn</a>
+            
+            <a href="https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?hl=en&amp;user=k5Aj3wYAAAAJ">Scholar</a>
+            
+            
+            <a href="https:&#x2F;&#x2F;selimsandal.com&#x2F;projects&#x2F;">Projects</a>
+            
+        </nav>
+        
+    </header>
+    
+    
+    
+    
+    <main>
+        
+        <div >
+            <p>Studying computer engineering. Research assistant at <a href="https://labs.ozyegin.edu.tr/cast/">CAST @ OzU</a>, working on designing better CPUs, hardware accelerators, software.</p>
+<hr />
+<p><sub><sup>selim (at) selimsandal (dot) com</sup></sub><br />
+<sub><sup>selim (dot) sandal (at) ozu (dot) edu (dot) tr</sup></sub></p>
+
+        </div>
+        
+        
+    </main>
+    
+    
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://selimsandal.com/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://selimsandal.com/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>

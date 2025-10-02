@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal Website">
+    <title>Selim Sandal | Projects</title>
+    
+    <link rel="stylesheet" href="https://selimsandal.com/style.css?h=088cb6e340cd4d37099df0950d1f75dd11e6a6e9b6c70ec8f802d1ebb728157c">
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;selimsandal.com">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>Projects</h1>
+    
+    <div class="space"></div>
+    <ul>
+<li>
+<p>Worked on a superscalar in-order RISC-V CPU at Ozyegin University CAST lab. (Sep 2022 - March 2023)</p>
+</li>
+<li>
+<p>Zero-Shot RTL Code Generation with Attention Sink Augmented Large Language Models, HiPEAC AccML, Published (Nov 2023 - Dec 2023)</p>
+</li>
+<li>
+<p>Worked on a macOS/iOS game engine written with metal-cpp. Working on the DX12 port.</p>
+</li>
+<li>
+<p>Working on an application class out-of-order RISC-V (RVA23) core.</p>
+</li>
+<li>
+<p>Working on a programmable, general purpose accelerator. (July 2023 - present)</p>
+</li>
+</ul>
+<p><sub><sup>P.S. This list is missing some projects, game jams and mobile apps I've worked on that I don't think I need to include here.</sup></sub></p>
+
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://selimsandal.com/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://selimsandal.com/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
